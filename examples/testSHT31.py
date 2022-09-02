@@ -1,5 +1,5 @@
 
-import TeelSys_SHT.SHT31 as SHT31
+import SHT.SHT31 as SHT31
 
 with SHT31.SHT31() as sht31:
     # print sht31.check_heater_status()
