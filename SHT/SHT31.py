@@ -1,4 +1,4 @@
-# Copyright (c) EmbdEzaz9 : updated from jaques
+# Copyright (c) : R.jaques
 
 import fcntl
 import time
