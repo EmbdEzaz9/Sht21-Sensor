@@ -1,4 +1,5 @@
-# EmbdEzaz9: Modified from Richard Teel modified from the work of Richard Jaques
+# EmbdEzaz9: Modified from Richard Jaques
+
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
 # in the Software without restriction, including without limitation the rights
@@ -16,9 +17,9 @@ import time
 class SHT21:
     """Class to read temperature and humidity from SHT21.
     Ressources: 
-      http://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity/Sensirion_Humidity_SHT21_Datasheet_V3.pdf
-      https://github.com/jaques/sht21_python/blob/master/sht21.py
-      """
+    http://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity/Sensirion_Humidity_SHT21_Datasheet_V3.pdf
+    https://github.com/jaques/sht21_python/blob/master/sht21.py
+    """
 
     #control constants
     _SOFTRESET = 0xFE
