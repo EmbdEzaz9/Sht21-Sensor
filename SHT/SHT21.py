@@ -7,8 +7,8 @@ import time
 class SHT21:
     """Class to read temperature and humidity from SHT21.
     Ressources: 
-      http://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity/Sensirion_Humidity_SHT21_Datasheet_V3.pdf
-      """
+    http://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity/Sensirion_Humidity_SHT21_Datasheet_V3.pdf
+    """
 
     #control constants
     _SOFTRESET = 0xFE
